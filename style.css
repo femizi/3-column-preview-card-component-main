@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.attribution {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    bottom: 0;
+    width: 50px;
+    margin: 0 auto; 
+    justify-content: center;
+    font-size: 11px; 
+    text-align: center;
+    width: auto;
+ }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+.cards-main {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: fit-content;
+    margin-top: 50px;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    border-color: rgba(0, 0, 0, 0.2);
+    border: solid 1px;
+    border-radius: 5px;
+        
+}
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.column-1{
+    background-color: hsl(31, 77%, 52%);
+    padding: 10px;
+}
+
+.column-2{
+    background-color: hsl(184, 100%, 22%);
+    padding: 10px;
+}
+
+.column-3{
+    background-color: hsl(179, 100%, 13%);
+    padding: 10px;
+}
+img{
+    margin: 20px;
+}
+h1{
+    margin: 20px;
+    color: hsl(0, 0%, 95%);
+}
+p{
+    padding: 20px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.button{
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 20px ;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+
+}
+.one {
+    color:hsl(31, 77%, 52%) ;
+}
+.one:hover {
+    background-color:hsl(31, 77%, 52%) ;
+}
+
+.two {
+    color:hsl(184, 100%, 22%) ;
+}
+.two:hover {
+    background-color:hsl(184, 100%, 22%) ;
+}
+
+.three {
+    color:hsl(179, 100%, 13%) ;
+}
+.three:hover {
+    background-color:hsl(179, 100%, 13%) ;
+}
+
+.button:hover{
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 20px;
+    transform: scale(0.98);
+    color: white;
+    border: solid 1px;
+    border-color: white;
+
+}
+
+@media (max-width: 468px) {
+    .cards-main{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
